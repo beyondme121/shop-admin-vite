@@ -1,17 +1,35 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import JSX from './components/JSX.tsx'
+import SimpleTsx from './components/SimpleTsx'
 </script>
 
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
+    <a
+      href="https://vitejs.dev"
+      target="_blank"
+    >
+      <img
+        src="/vite.svg"
+        class="logo"
+        alt="Vite logo"
+      >
     </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+    <a
+      href="https://vuejs.org/"
+      target="_blank"
+    >
+      <img
+        src="./assets/vue.svg"
+        class="logo vue"
+        alt="Vue logo"
+      >
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <JSX />
+  <SimpleTsx msg="hello msg123" />
 </template>
 
 <style scoped>
